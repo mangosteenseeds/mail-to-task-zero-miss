@@ -1,0 +1,21 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Private config (customer rosters, SLA real values, approver IDs, etc.)
+config/*.csv
+!config/*.example.csv
+
+# n8n
+.n8n/
+*.credentials.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
